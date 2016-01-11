@@ -40,9 +40,9 @@ you could even try `pengin -h` which might tell you things. or `pengin -p` which
                   xXXXXXXXXXx   
                  XXXXXXXXXXXXX   
                 xXXXXXXXX  XXXx   
-                XXXXXXXXX 0XXXX\\\   
-               xXXXXXXXXXxxXXXX\\\   
-               XXXXXXXXXXXXXXXX//////    
+                XXXXXXXXX 0XXXX\\\\   
+               xXXXXXXXXXxxXXXX\\\\\   
+               XXXXXXXXXXXXXXXX/////    
                XXXXXXXXXXXXXXXXX   
                XXXXX|XXX/|XXXXX   
                XXXXX| -/ |XXXXX   
