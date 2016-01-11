@@ -32,11 +32,9 @@ penguin('bebe') // => returns DA BEBE PENGINS
 ```
 npm i pengins -g  
 pengin  
-
 ```
 duh.  
-you could eventry `pengin -h` which might tell you things. or `pengin -p` which may or may not provide you a nice list of all the pengins. you could just go right for `pengin tux`, too, if you really wanted.
-
+you could even try `pengin -h` which might tell you things. or `pengin -p` which may or may not provide you a nice list of all the pengins. you could just go right for `pengin tux`, too, if you really wanted.
 ```
                      xxxxx   
                   xXXXXXXXXXx   
