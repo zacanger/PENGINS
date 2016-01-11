@@ -1,4 +1,4 @@
-## PENGINZ
+# PENGINZ
 
 ----------------
 
@@ -7,35 +7,33 @@ WHICH I DID NOT WRITE
 THAT'S OVER AT HTTPS://GITHUB.COM/COLEWW/CAT-ME  
 I RECOMMEND IT IF YOU LIKE CATS  
 
-
-### how to use it?
+## how to use it?
 
 ```javascript
 var penguin  = require('pengins')
 
 penguin() // => returns a random ~~cat~~ PENGIN  
 (like our boy sumo, here)  
-```
     _
  (^v^)    
 //-=-\\   
 (\_=_/)   
  ^^ ^^    
-```
-
+//
 
 penguin('bebe') // => returns DA BEBE PENGINS  
-```
    |\__      |\___     
  (:> __)X  (:o ___(    
    |/        |/        
 ```
 
-### HOW TO USE IT IN MY XTERM THO?
+# HOW TO USE IT IN MY XTERM THO?
 
-`npm i pengins -g`  
-`pengin`  
+```
+npm i pengins -g  
+pengin  
 
+```
 duh.  
 you could eventry `pengin -h` which might tell you things. or `pengin -p` which may or may not provide you a nice list of all the pengins. you could just go right for `pengin tux`, too, if you really wanted.
 
@@ -78,11 +76,6 @@ XXXX       XXX                   XXX       XXXX
 ```
 
 aww damn, he's so fly!  
-
-(oh. sorry.)
-
-
-
 
 
 --------
