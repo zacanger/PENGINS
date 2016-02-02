@@ -1,14 +1,13 @@
 {
   "name": "pengins",
   "description": "pengins. in ur xterm. chillin.",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "main": "index.js",
   "scripts": {
-    "test": "standard && node test.js"
+    "test": "node test.js"
   },
   "devDependencies": {
-    "tap": "^1.3.2",
-    "standard": "5.3.1"
+    "tap": "^1.3.2"
   },
   "dependencies": {
     "yargs": "^3.18.0"
@@ -16,7 +15,7 @@
   "bin": {
     "pengin": "cmd.js"
   },
-  "license": "MIT",
+  "license": "WTFPL",
   "author": {
     "name": "Zac Anger",
     "url": "https://zacanger.com"
@@ -32,3 +31,4 @@
   ],
   "homepage": "https://github.com/zacanger/pengins"
 }
+

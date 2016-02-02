@@ -7,12 +7,13 @@ var argv = require('yargs')
   .usage('PENGIN\nget u som pengin in ur xterm\n' + pengin())
   .example('pengin')
   .alias('p', 'pengins')
-  .describe('p', 'see da pengins')
+  .describe('p', 'see pengins')
   .argv
 
 var choice = argv._.join(' ')
 
-var output = argv.p ? 'tipes of pengin: ' + pengin.pengins.join(', ') : pengin(choice)
+var output = argv.p ? 'types of pengin: ' + pengin.pengins.join(', ') : pengin(choice)
 
 process.stdout.write(output)
 process.stdout.write('\n')
+
