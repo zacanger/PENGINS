@@ -1,28 +1,31 @@
-var tap    = require('tap')
-  , pengin = require('./')
+'use strict'
 
-tap.test('get a pengin', function(t){
+const
+  tap    = require('tap')
+, pengin = require('./')
+
+tap.test('get a pengin', t => {
   t.plan(1)
-  var peng = pengin()
-  t.equal(typeof pengin, 'string', 'does it')
+  let peng = pengin()
+  t.equal(typeof pengin, 'function', 'does it')
   console.log(peng)
 })
 
-var sqweek =
+let sqweek =
 ' ( T >   '  + '\n' +
 ' // /\   '  + '\n' +
 ' \ _ /,, '  + '\n'
 
-tap.test('get a pengin', function(t){
+tap.test('get a pengin', t => {
   t.plan(1)
-  var peng = pengin('sqweek')
+  let peng = pengin('sqweek')
   t.equal(peng, sqweek, 'does it')
   console.log(peng)
 })
 
-tap.test('get a pengin', function(t){
+tap.test('get a pengin', t => {
   t.plan(1)
-  var pengins = pengin.pengins
+  let pengins = pengin.pengins
   t.ok(pengins.indexOf('sqwak') !== -1, 'does it')
 })
 

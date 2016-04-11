@@ -1,34 +1,37 @@
 {
   "name": "pengins",
   "description": "pengins. in ur xterm. chillin.",
-  "version": "1.2.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "node test.js"
-  },
-  "devDependencies": {
-    "tap": "^1.3.2"
-  },
-  "dependencies": {
-    "yargs": "^3.18.0"
-  },
-  "bin": {
-    "pengin": "cmd.js"
-  },
-  "license": "WTFPL",
+  "version": "1.2.1",
   "author": {
     "name": "Zac Anger",
     "url": "https://zacanger.com"
   },
+  "bugs": {
+    "url": "https://github.com/zacanger/pengins/issues"
+  },
+  "license": "WTFPL",
+  "main": "index.js",
+  "bin": {
+    "pengin": "cmd.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "homepage": "https://github.com/zacanger/pengins",
   "repository": {
     "type": "git",
-    "url":  "https://github.com/zacanger/pengins.git"
+    "url": "https://github.com/zacanger/pengins.git"
   },
   "keywords": [
-    "penguins",
+    "art",
     "ascii",
-    "art"
+    "penguins"
   ],
-  "homepage": "https://github.com/zacanger/pengins"
+  "dependencies": {
+    "yargs": "^3.18.0"
+  },
+  "devDependencies": {
+    "tap": "^1.3.2"
+  }
 }
 

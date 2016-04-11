@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 
-var pengin = require('./')
-var argv = require('yargs')
+'use strict'
+
+const
+  pengin = require('./')
+, argv = require('yargs')
   .alias('h', 'help')
   .help('help')
   .usage('PENGIN\nget u som pengin in ur xterm\n' + pengin())
@@ -10,9 +13,8 @@ var argv = require('yargs')
   .describe('p', 'see pengins')
   .argv
 
-var choice = argv._.join(' ')
-
-var output = argv.p ? 'types of pengin: ' + pengin.pengins.join(', ') : pengin(choice)
+, choice = argv._.join(' ')
+, output = argv.p ? 'types of pengin: ' + pengin.pengins.join(', ') : pengin(choice)
 
 process.stdout.write(output)
 process.stdout.write('\n')

@@ -1,8 +1,14 @@
-var penginz = require('./penginz')
-  , pengins = Object.keys(penginz)
+'use strict'
 
-module.exports = function(peng){
-  if(!peng)peng = pengins[~~(Math.random() * pengins.length)]
+const
+
+  penginz = require('./penginz')
+, pengins = Object.keys(penginz)
+
+module.exports = peng => {
+  if (!peng) {
+    peng = pengins[~~(Math.random() * pengins.length)]
+  }
   return penginz[peng]
 }
 
