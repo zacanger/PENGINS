@@ -28,4 +28,3 @@ tap.test('get a pengin', t => {
   let pengins = pengin.pengins
   t.ok(pengins.indexOf('sqwak') !== -1, 'does it')
 })
-

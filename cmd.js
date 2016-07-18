@@ -12,10 +12,8 @@ const
   .alias('p', 'pengins')
   .describe('p', 'see pengins')
   .argv
-
 , choice = argv._.join(' ')
 , output = argv.p ? 'types of pengin: ' + pengin.pengins.join(', ') : pengin(choice)
 
 process.stdout.write(output)
 process.stdout.write('\n')
-

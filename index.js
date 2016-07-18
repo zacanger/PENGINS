@@ -1,7 +1,6 @@
 'use strict'
 
 const
-
   penginz = require('./penginz')
 , pengins = Object.keys(penginz)
 
@@ -13,4 +12,3 @@ module.exports = peng => {
 }
 
 module.exports.pengins = pengins
-
